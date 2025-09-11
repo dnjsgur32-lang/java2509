@@ -1,0 +1,14 @@
+package ch03.sec01;
+
+public class ArithmeticOperatorExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		byte v1 = 10;
+		byte v2 = 4;
+		int v3 = 5;
+		long v4 = 10L;
+		
+	}
+
+}
