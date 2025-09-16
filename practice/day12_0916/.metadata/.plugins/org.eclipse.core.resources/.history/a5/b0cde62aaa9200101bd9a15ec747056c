@@ -1,0 +1,16 @@
+package co.kr.library;
+
+public abstract class LibraryItem implements Borrowable {
+	
+
+	public void displayInfo() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void borrow() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

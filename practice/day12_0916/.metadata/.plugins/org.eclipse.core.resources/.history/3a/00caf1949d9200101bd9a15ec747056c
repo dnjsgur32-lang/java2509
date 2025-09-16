@@ -1,0 +1,7 @@
+package co.kr.bank;
+
+public class CheckingAccount extends Account {
+	public CheckingAccount(String owner, int balance) {
+		super(owner, balance);
+	}
+}

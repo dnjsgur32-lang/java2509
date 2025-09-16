@@ -1,0 +1,27 @@
+package practice;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//객체 생성
+		Animal dog = new Dog("바둑이", 3);
+		Animal cat = new Cat("나비", 2);
+		
+		//Animal 메서드
+		dog.displayInfo();
+		cat.displayInfo();
+		
+		//Soundable 메서드
+		dog.makeSound();
+		cat.makeSound();
+		
+		//다형성 활용 (Soundable 타입 배열)
+		Soundable[] sounds = {dog,cat};
+		for (Soundable s : sounds) {
+			s.makeSound();
+		}
+		
+		
+	}
+
+}

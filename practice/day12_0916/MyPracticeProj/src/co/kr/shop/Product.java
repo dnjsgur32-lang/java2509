@@ -1,0 +1,20 @@
+package co.kr.shop;
+
+public abstract class Product implements Sellable {
+	String name;
+	int price;
+	
+	public Product(String name, int price) {
+		this.name = name;
+		this.price = price;
+	}
+	
+	public void displayInfo() {
+		System.out.println("상품명: " + name + ", 가격: " + price + "원");
+	}
+
+	@Override
+	public abstract void sell();
+	
+	
+}

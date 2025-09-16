@@ -1,0 +1,6 @@
+package co.kr.shop;
+
+public abstract class Product implements Sellable {
+
+
+}

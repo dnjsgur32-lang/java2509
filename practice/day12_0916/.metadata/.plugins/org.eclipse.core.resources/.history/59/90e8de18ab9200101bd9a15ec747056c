@@ -1,0 +1,14 @@
+package co.kr.library;
+
+public class Magazine extends LibraryItem {
+
+	public Magazine(String title) {
+		super(title);
+	}
+
+	@Override
+	public void borrow() {
+		System.out.println("잡지 \"" + title + "\" 대여 완료!");
+	}
+
+}

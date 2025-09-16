@@ -1,0 +1,14 @@
+package co.kr.game;
+
+public class Warrior extends Character {
+	public Warrior(String name, int hp, int attackPower, int defense) {
+		super(name, hp, attackPower, defense);
+	}
+
+	@Override
+	public void attack() {
+		System.out.println(name + " (전사)이(가) 검으로 " + attackPower + "의 피해를 줍니다!");
+	}
+	
+	
+}

@@ -1,0 +1,9 @@
+package question6;
+
+public class Archer implements Attackable {
+	String name;
+	
+	public Archer(String name) {
+	
+	}
+}

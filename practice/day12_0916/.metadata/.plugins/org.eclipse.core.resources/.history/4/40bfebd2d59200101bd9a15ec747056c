@@ -1,0 +1,18 @@
+package question3;
+
+// 프로그램 실행 클래스
+public class Main {
+
+	public static void main(String[] args) {
+		// Monster 객체를 3개 생성
+		Monster m1 = new Monster("오우거", 80);
+		Monster m2 = new Monster("고블린", 40);
+		Monster m3 = new Monster("트롤", 120);
+
+		// 각각의 메서드를 실행
+		m1.roar();
+		m2.roar();
+		m3.roar();
+	}
+
+}

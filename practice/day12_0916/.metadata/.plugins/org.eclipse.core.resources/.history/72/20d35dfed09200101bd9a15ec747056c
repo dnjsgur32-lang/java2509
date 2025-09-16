@@ -1,0 +1,14 @@
+package question5;
+
+public class Goblin extends Enemy {
+	public Goblin(String name) {
+		super(name);	// 부모 생성자를 호출
+	}
+
+	@Override
+	public void attack() {
+		// TODO Auto-generated method stub
+		super.attack();
+	}
+	
+}

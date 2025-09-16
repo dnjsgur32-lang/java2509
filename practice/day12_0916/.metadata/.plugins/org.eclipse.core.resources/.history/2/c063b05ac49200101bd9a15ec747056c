@@ -1,0 +1,7 @@
+package question2;
+
+//Weapon 클래스 : 무기 이름 (type), 공격력 (power), 무게 (weight)를 가진다.
+// 생성자를 통해 값을 초기화할 수 있다.
+public class Weapon {
+
+}

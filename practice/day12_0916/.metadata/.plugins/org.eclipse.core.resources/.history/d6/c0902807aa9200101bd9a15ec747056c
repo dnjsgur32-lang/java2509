@@ -1,0 +1,10 @@
+package co.kr.library;
+
+public class LibraryItem {
+
+	public void displayInfo() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

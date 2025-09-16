@@ -1,0 +1,5 @@
+package co.kr.bank;
+
+public interface Transactionable {
+
+}

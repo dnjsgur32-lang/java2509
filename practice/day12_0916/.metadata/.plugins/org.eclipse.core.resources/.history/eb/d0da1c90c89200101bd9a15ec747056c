@@ -1,0 +1,11 @@
+package question3;
+
+//	Monster 클래스: 이름(name), 체력(hp)을 가진다.
+//	roar() 메서드에서 "괴물이 포효한다!" 메시지 출력 예정
+public class Monster {
+	String name;	// 몬스터 이름
+	int hp;			// 몬스터 체력
+	
+	// 생성자 (이름과 체력을 초기화)
+
+}

@@ -1,0 +1,9 @@
+package question3;
+
+public class Monster {
+	String name;	// 몬스터 이름
+	int hp;			// 몬스터 체력
+	
+	// 생성자 (이름과 체력을 초기화)
+
+}

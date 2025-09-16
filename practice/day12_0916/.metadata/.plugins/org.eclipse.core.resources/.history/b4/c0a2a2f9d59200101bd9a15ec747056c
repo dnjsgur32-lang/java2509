@@ -1,0 +1,14 @@
+package question4;
+
+//	Orc 클래스: Enemy(부모)를 상속 받는다.
+public class Orc extends Enemy {
+	public Orc(String name) {
+		super(name); //	부모 생성자 호출
+	}
+
+//	부모의 info() 메서드를 오버라이드
+	@Override
+	public void info() {
+		System.out.println("오크 전사: " + name);
+	}
+}

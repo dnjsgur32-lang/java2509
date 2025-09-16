@@ -1,0 +1,15 @@
+package co.kr.bank;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//객체 생성
+		Account saving = new SavingAccount("김철수", 5000);
+		Account checking = new CheckingAccount("이영희", 10000);
+		
+		//공통 메서드
+		saving.displayInfo();
+		checking.displayInfo();
+	}
+
+}

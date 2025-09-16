@@ -1,0 +1,7 @@
+package co.kr.student;
+
+public class HighStudent extends Student {
+	public HighStudent (String name, int age) {
+		super (name, age);
+	}
+}

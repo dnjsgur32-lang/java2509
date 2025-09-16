@@ -1,0 +1,17 @@
+package question6;
+
+public class Archer implements Attackable {
+	String name;
+	
+	public Archer(String name) {
+		this.name = name;
+	}
+
+	@Override
+	public void attack() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}

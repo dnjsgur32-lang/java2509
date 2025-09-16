@@ -1,0 +1,9 @@
+package co.kr.shop;
+
+public class Laptop extends Product {
+
+	public Laptop(String name, int price) {
+		super(name, price);
+	}
+
+}

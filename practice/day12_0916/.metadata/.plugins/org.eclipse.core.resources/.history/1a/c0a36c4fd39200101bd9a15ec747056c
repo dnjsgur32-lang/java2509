@@ -1,0 +1,17 @@
+package question1;
+// 클래스 : 설계도
+
+// 프로그램 실행 클래스
+public class Main {
+    public static void main(String[] args) {
+        // Character 객체 생성 (생성자)
+        Character c = new Character();
+
+        // 속성 값 할당 (생성자가 가질수 있는 특징)
+        c.name = "아서스";
+        c.hp = 120;
+
+        // 메서드 호출 → 캐릭터 정보 출력
+        c.displayInfo();
+    }
+}

@@ -1,0 +1,15 @@
+package co.kr.shop;
+
+public abstract class Product implements Sellable {
+	String name;
+	int price;
+	
+	public Product(String name, int price) {
+		this.name = name;
+		this.price = price;
+	}
+	
+	public void displayInfo() {
+	
+	}
+}

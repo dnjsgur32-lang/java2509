@@ -1,0 +1,9 @@
+package co.kr.shop;
+
+public abstract class Product implements Sellable {
+	String name;
+	int price;
+	
+	
+
+}

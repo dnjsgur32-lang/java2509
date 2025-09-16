@@ -1,0 +1,7 @@
+package question6;
+
+public interface Attackable {
+// Attackable 인터페이스 : 공격할 수 있는 규칙을 정의
+	void attack(); //공격 메서드 (구현하는 내용은 없음. 행동만 할 수 있음)
+
+}

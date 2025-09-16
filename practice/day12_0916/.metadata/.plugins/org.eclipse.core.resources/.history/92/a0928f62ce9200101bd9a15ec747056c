@@ -1,0 +1,10 @@
+package question4;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Enemy enemy = new Enemy("정찰병");
+		Orc orc = new Orc("그롬");
+	}
+
+}

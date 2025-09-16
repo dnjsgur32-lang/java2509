@@ -1,0 +1,11 @@
+package co.kr.shop;
+
+public class Phone extends Product {
+
+	@Override
+	public void sell() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

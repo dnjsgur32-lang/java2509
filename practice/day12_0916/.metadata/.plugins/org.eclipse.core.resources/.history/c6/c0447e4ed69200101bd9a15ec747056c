@@ -1,0 +1,13 @@
+package question5;
+
+//Main: 추상 클래스는 직접 생성 불가 → 자식으로 생성해 사용
+public class Main {
+
+	public static void main(String[] args) {
+		Enemy g = new Goblin("스니크"); // 추상 클래스는 직접 개체 생성이 불가하기
+									 // 때문에 자식을 사용해야함.
+		g.taunt(); // 공통 동작
+		g.attack(); // 자식이 구현한 동작
+	}
+
+}

@@ -1,0 +1,11 @@
+package question1;
+
+public class Character {
+	String name;
+	int hp;
+	
+	public void displayInfo() {
+		// TODO Auto-generated method stub
+
+	}
+}

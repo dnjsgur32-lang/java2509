@@ -1,0 +1,8 @@
+package question4;
+
+//	Orc 클래스: Enemy(부모)를 상속 받는다.
+public class Orc extends Enemy {
+	public Orc(String name) {
+		super(name); //	부모 생성자 호출
+	}
+}

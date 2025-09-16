@@ -1,0 +1,19 @@
+package question3;
+
+//Monster: 이름/체력을 가진 몬스터의 설계도
+public class Monster {
+	String name;	// 필드: 몬스터 이름
+	int hp;			// 필드: 몬스터 체력
+	
+ // 생성자: 전달값으로 필드를 초기화
+	public Monster(String name, int hp) {
+		this.name = name;
+		this.hp = hp;
+	}
+	
+	// 몬스터의 포효 메서드
+	public void roar() {
+		System.out.println(name +"이(가) 포효한다! HP = " + hp);
+
+	}
+}

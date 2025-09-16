@@ -1,0 +1,22 @@
+package co.kr.game;
+
+public class Character {
+	String name;
+	int hp;
+	int attackPower;
+	int defense;
+	
+	public Character(String name, int hp, int attackPower, int defense) {
+		this.name = name;
+		this.hp = hp;
+		this.attackPower = attackPower;
+		this.defense = defense;
+	}
+	
+	private void displayInfo() {
+		System.out.println("캐릭터: " + name
+				+ ", HP: " + hp
+				+ ", 공격력: " + attackPower
+				+ ", 방어력: " + defense);
+	}
+}

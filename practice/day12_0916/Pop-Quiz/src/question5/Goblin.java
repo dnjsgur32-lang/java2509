@@ -1,0 +1,15 @@
+package question5;
+
+//Goblin: 추상 부모의 추상 메서드를 구체화(오버라이드)
+public class Goblin extends Enemy {
+	public Goblin(String name) {
+		super(name); // 부모 생성자 호출
+	}
+
+	@Override
+	public void attack() {
+		// 추상 메서드 구현: 고블린만의 공격 방식
+		System.out.println(name + " 이(가) 단검으로 공격한다!");
+	}
+
+}

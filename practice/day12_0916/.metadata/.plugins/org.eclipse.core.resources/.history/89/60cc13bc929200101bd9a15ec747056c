@@ -1,0 +1,14 @@
+package practice;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//객체 생성
+		Animal dog = new Dog("바둑이", 3);
+		Animal cat = new Cat("나비", 2);
+		
+		dog.displayInfo();
+		dog.sound();
+	}
+
+}

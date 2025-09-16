@@ -1,0 +1,12 @@
+package question2;
+
+// Main: 무기 객체를 생성하고 정보를 출력한다.
+public class Main {
+	public static void main(String[] args) {
+		// 생성자 호출로 필드 초기화
+		Weapon sword = new Weapon("롱소드", 30, 3.2);
+
+		sword.info(); // 객체의 동작(메서드) 실행
+	}
+
+}

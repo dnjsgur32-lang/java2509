@@ -1,0 +1,21 @@
+package co.kr.shop;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Product p1 = new Book("자바 기초", 15000);
+		Product p2 = new Laptop("맥북", 2000000);
+		
+		//부모 클래스 메서드
+		p1.displayInfo();
+		p2.displayInfo();
+		
+		//인터페이스 메서드
+		p1.sell();
+		p2.sell();
+		
+		//다형성 활용
+		
+	}
+
+}

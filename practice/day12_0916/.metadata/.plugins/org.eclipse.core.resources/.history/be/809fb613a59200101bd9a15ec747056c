@@ -1,0 +1,10 @@
+package co.kr.shop;
+
+public class Book extends Product {
+
+	public Book(String name, int price) {
+		// TODO Auto-generated constructor stub
+	}
+
+	}
+

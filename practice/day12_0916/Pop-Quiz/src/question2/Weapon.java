@@ -1,0 +1,21 @@
+package question2;
+
+// Weapon : 무기의 설계도 (필드 + 셍성자 + 메서드)
+
+public class Weapon {
+	String type; // 무기 종류 ↓여긴 필드↓
+	int power; // 각 무기들의 공격력
+	double weight; // 각 무기들의 무게
+
+	public Weapon(String type, int power, double weight) {
+		// 생성자 : 전달 받은 값으로 필드를 초기화한다.
+		this.type = type; // 전달 받은 무기들의 종류를 type 필드에 저장
+		this.power = power; // 전달 받은 무기들의 공격력을 power 필드에 저장
+		this.weight = weight; // 전달 받은 무기들의 무게를 weight 필드에 저장
+	}
+
+	public void info() {
+		// 메서드: 현재 겍체(무기)의 상태를 출력한다.
+		System.out.println("무기: " + type + ", 공격력: " + power + ", 무게: " + weight);
+	}
+}

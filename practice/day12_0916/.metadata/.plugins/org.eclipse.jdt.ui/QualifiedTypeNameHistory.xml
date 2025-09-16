@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="practice.Animal"/>
+    <fullyQualifiedTypeName name="practice.Soundable"/>
+    <fullyQualifiedTypeName name="java.lang.Record"/>
+    <fullyQualifiedTypeName name="javax.security.auth.login.AccountException"/>
+    <fullyQualifiedTypeName name="co.kr.bank.Transactionable"/>
+    <fullyQualifiedTypeName name="co.kr.student.Studyable"/>
+    <fullyQualifiedTypeName name="co.kr.library.Borrowable"/>
+    <fullyQualifiedTypeName name="co.kr.game.Attackable"/>
+    <fullyQualifiedTypeName name="co.kr.game.Warrior"/>
+    <fullyQualifiedTypeName name="co.kr.game.Character"/>
+    <fullyQualifiedTypeName name="question2.Weapon"/>
+    <fullyQualifiedTypeName name="java.lang.ProcessHandle.Info"/>
+    <fullyQualifiedTypeName name="question6.Attackable"/>
+</qualifiedTypeNameHistroy>

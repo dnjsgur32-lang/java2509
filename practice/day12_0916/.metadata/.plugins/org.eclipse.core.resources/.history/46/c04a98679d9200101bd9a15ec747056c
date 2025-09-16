@@ -1,0 +1,15 @@
+package co.kr.bank;
+
+public class SavingAccount extends Account {
+	public SavingAccount(String owner, int balance) {
+		super(owner, balance);
+	}
+
+	@Override
+	public void doTransaction(int amout) {
+		balance += amount; //금액을 더해주는 방식
+		super.doTransaction(amout);
+	}
+	
+	
+}

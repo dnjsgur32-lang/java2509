@@ -1,0 +1,10 @@
+package question1;
+
+public class Main {
+    public static void main(String[] args) {
+        Character c = new Character();
+        c.name = "아서스";
+        c.hp = 120;
+        c.displayInfo();
+    }
+}

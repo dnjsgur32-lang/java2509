@@ -1,0 +1,14 @@
+package co.kr.library;
+
+public class Book extends LibraryItem {
+
+	public Book(String title) {
+		super(title);
+	}
+
+	@Override
+	public void borrow() {
+		System.out.println("책 \"" + title + "\" 대여 완료!");
+	}
+
+}

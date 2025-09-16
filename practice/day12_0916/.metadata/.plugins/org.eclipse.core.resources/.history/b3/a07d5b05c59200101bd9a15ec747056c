@@ -1,0 +1,15 @@
+package question2;
+
+// Weapon 클래스 : 무기 이름 (type), 공격력 (power), 무게 (weight)를 가진다.
+// 생성자를 통해 값을 초기화 할 수 있다.
+public class Weapon {
+	String type;	// 무기 종류 (검, 창, 활 등)
+	int power;		// 각 무기들의 공격력
+	double weight; 	// 각 무기들의 무게
+	
+	public Weapon(String type, int power, double weight) {
+		this.type = type;		// 전달 받은 무기들의 종류를 type 필드에 저장
+		this.power = power;		// 전달 받은 무기들의 공격력을 power 필드에 저장
+		this.weight = weight;	//전달 받은 무기들의 무게를 weight 필드에 저장
+	}
+}

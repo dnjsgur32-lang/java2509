@@ -1,0 +1,10 @@
+package question5;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Enemy g = new Goblin("스니크"); // 추상 클래스는 직접 개체 생성이 불가하기
+									 // 때문에 자식을 사용해야함.
+	}
+
+}

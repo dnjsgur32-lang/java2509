@@ -1,0 +1,15 @@
+package co.kr.library;
+
+public class LibraryItem {
+
+	public void displayInfo() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void borrow() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

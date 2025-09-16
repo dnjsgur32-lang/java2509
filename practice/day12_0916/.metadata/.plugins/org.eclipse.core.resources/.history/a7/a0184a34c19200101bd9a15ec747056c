@@ -1,0 +1,8 @@
+package question2;
+
+public class Character {
+	public Character (String name, int hp) {
+		this.name = name;
+		this.hp = hp;
+	}
+}

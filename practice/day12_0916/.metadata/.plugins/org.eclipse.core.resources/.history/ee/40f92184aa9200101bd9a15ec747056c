@@ -1,0 +1,6 @@
+package co.kr.library;
+
+public class Book extends LibraryItem {
+
+	
+}

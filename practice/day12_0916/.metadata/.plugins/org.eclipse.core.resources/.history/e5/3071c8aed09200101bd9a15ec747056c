@@ -1,0 +1,9 @@
+package question5;
+
+public class Enemy {
+
+	public Enemy(String name) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

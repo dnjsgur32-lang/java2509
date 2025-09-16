@@ -1,0 +1,5 @@
+package co.kr.student;
+
+public class HighStudent extends Student {
+
+}

@@ -1,0 +1,9 @@
+package co.kr.shop;
+
+public class Product {
+
+	public Product(String name, int price) {
+		super (name, price)
+	}
+
+}

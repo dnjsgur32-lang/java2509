@@ -1,0 +1,14 @@
+package question1;
+
+//Character 클래스: 이름(name), 체력(hp) 속성을 가지고
+//화면에 출력할 수 있는 displayInfo() 메서드를 정의
+public class Character {
+    String name;	// 캐릭터 이름
+    int hp;			// 캐릭터 체력
+
+    // 캐릭터 정보를 출력하는 메서드
+
+    public void displayInfo() {
+        System.out.println("이름: " + name + ", HP: " + hp);
+    }
+}

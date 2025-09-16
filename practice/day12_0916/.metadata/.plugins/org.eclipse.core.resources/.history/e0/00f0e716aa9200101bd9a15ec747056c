@@ -1,0 +1,9 @@
+package co.kr.library;
+
+public class Magazine extends LibraryItem {
+
+	public Magazine(String string) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

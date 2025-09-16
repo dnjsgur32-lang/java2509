@@ -1,0 +1,5 @@
+package co.kr.game;
+
+public class Mage extends Character {
+
+}

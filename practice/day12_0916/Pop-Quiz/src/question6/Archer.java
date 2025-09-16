@@ -1,0 +1,17 @@
+package question6;
+
+//Archer: Attackable 규칙을 구현하는 클래스
+public class Archer implements Attackable {
+	String name; // 필드: 캐릭터 이름
+
+	public Archer(String name) {
+		this.name = name; // 생성자: 이름 초기화
+	}
+
+	@Override
+	public void attack() {
+		// 규칙 구현: 궁수의 실제 공격 동작
+		System.out.println(name + " 이 (가) 활을 쏜다!");
+	}
+
+}

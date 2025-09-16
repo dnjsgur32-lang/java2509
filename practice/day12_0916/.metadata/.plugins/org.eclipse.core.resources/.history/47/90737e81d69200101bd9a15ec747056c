@@ -1,0 +1,11 @@
+package question6;
+
+//Main: 인터페이스 타입으로 참조해 다형성을 확인한다
+public class Main {
+
+	public static void main(String[] args) {
+		Attackable a = new Archer("레인저"); // 인터페이스 타입에 구현체 대입
+		a.attack();
+	}
+
+}

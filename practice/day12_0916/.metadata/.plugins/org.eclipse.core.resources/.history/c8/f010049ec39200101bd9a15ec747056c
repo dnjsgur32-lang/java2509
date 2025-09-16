@@ -1,0 +1,13 @@
+package question1;
+
+public class Character {
+	String name;
+	int hp;
+	
+	public void displayInfo() {
+		System.out.println("이름: " + name + ", HP: " + hp);
+	}
+}
+
+//나는 Character라는 이름의 클래스를 만들고
+//name, hp 라는 속성과 displayInfo() 라는 메서드를 선언한다.

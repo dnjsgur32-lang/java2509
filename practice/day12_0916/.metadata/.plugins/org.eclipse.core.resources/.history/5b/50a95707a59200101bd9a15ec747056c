@@ -1,0 +1,6 @@
+package co.kr.shop;
+
+public class Book extends Product {
+
+	}
+

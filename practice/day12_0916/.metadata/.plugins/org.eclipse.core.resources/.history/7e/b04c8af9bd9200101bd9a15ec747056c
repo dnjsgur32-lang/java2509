@@ -1,0 +1,13 @@
+package co.kr.game;
+
+public class Mage extends Character {
+	public Mage(String name, int hp, int attackPower, int defense) {
+		super(name, hp, attackPower, defense);
+	}
+
+	@Override
+	public void attack() {
+		System.out.println(name + " (마법사)이(가) 화염구를 시전합니다!");
+	}
+
+}

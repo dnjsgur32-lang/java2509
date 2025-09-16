@@ -1,0 +1,11 @@
+package question6;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Attackable 타입으로 객체 참조 (다형성)
+		Attackable a = new Archer("레인저");
+		a.attack();
+	}
+
+}

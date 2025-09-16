@@ -1,0 +1,14 @@
+package co.kr.vehicle;
+
+public class Car extends Vehicle {
+	public Car(String brand, int year) {
+		super(brand, year);
+	}
+
+	@Override
+	public void move() {
+		System.out.println("자동차가 도로를 달립니다!");
+	}
+	
+	
+}

@@ -1,0 +1,11 @@
+package question5;
+
+public abstract class Enemy {
+	String name; //적의 이름
+	
+	
+	public Enemy(String name) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

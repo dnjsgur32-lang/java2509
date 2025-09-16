@@ -1,0 +1,15 @@
+package co.kr.game;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Character warrior = new Warrior("아서스", 120, 30, 10);
+		Character mage = new Mage("매지컬", 100, 15, 10);
+		warrior.displayInfo();
+		warrior.attack();
+		System.out.println("=============");
+		mage.displayInfo();
+		mage.attack();
+	}
+
+}
