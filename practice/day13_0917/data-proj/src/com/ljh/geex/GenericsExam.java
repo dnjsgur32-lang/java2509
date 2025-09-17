@@ -1,0 +1,48 @@
+package com.ljh.geex;
+
+//제네릭 없는 버전
+class Box {
+	private Object item;
+	
+	public void setItem(Object item) {
+		this.item = item;
+	}
+	
+	public Object getItem() {
+		return item;
+	}
+}
+
+//제네릭 있는 버전
+class Box2<T> { //제네릭 클래스
+	private T item;
+	
+	public void setItem(T item) {
+		this.item = item;
+	}
+	
+	public T getItem() {
+		return item;
+	}
+}
+
+
+public class GenericsExam {
+	public GenericsExam() {
+		Box box = new Box();
+		box.setItem("Hello"); //문자열 저장
+		
+		// 형변환 필요 (런타임 오류 가능성 있음)
+		String str = (String) box.getItem();
+		System.out.println(str);
+		
+		System.out.println("==================");
+		
+		Box2<String> box2 = new Box2<>();
+		box.setItem("Hello"); // 타입 저장
+		
+		// 형변환 필요 없음 (런타임 오류 가능성 XX)
+		String str2 = box2.getItem();
+		System.out.println(str); 
+	}
+}

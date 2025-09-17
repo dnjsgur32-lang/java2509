@@ -1,0 +1,23 @@
+package com.ljh.mapex;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapExam {
+	public MapExam() {
+
+//		 HashMap - 키-값 쌍, 순서 보장 안도ㅑㅁ
+		Map<String, Integer> hashMap = new HashMap <>();
+		hashMap.put("사과", 1000);
+		hashMap.put("바나나", 500);
+		hashMap.put("오렌지", 800);
+		hashMap.put("사과", 1200); // 기존 값에서 덮어씀
+		
+		System.out.println("HashMap: " + hashMap);
+		System.out.println("사과 가격: " + hashMap.get("사과"));
+		
+//		TreeMap - 키 기준 자동 정렬
+		Map<String, String> treeMap = new TreeMap<>();
+	
+	}
+}

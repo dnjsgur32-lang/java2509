@@ -1,0 +1,12 @@
+package com.ljh.mapex;
+
+import java.util.Map;
+
+public class MapExam {
+	public MapExam() {
+
+//		 HashMap - 키-값 쌍, 순서 보장 안도ㅑㅁ
+		Map<String, Integer> hashMap = new HashMap<>();
+	
+	}
+}

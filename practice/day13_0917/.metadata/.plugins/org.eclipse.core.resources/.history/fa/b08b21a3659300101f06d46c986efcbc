@@ -1,0 +1,15 @@
+package com.ljh;
+
+public class MyMain {
+
+	public static void main(String[] args) {
+		
+		//List
+		
+		//Set
+		
+		//Map
+		
+	}
+
+}

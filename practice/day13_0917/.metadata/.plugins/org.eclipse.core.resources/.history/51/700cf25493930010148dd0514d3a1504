@@ -1,0 +1,11 @@
+package co.kr.ljh;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Dog d = new Dog();
+		d.name = "초코";
+		d.bark();
+	}
+
+}

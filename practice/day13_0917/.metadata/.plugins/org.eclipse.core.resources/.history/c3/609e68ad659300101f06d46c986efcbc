@@ -1,0 +1,15 @@
+package com.ljh;
+
+public class MyMain {
+
+	public static void main(String[] args) {
+		
+		//List: 순서O, 중복O,
+		
+		//Set
+		
+		//Map
+		
+	}
+
+}

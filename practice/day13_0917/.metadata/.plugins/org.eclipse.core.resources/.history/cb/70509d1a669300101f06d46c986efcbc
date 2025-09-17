@@ -1,0 +1,15 @@
+package com.ljh;
+
+public class MyMain {
+
+	public static void main(String[] args) {
+		
+		//List: 접근 할 때 순서O, 중복O,
+		
+		//Set: 접근 할 때 순서X, 중복X
+		
+		//Map: (key, value) 키로 접근해서 값을 구해옴.
+		
+	}
+
+}

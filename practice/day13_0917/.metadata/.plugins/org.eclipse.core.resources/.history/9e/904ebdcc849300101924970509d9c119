@@ -1,0 +1,11 @@
+package com.ljh.geex;
+
+class Box {
+	private Object item;
+}
+
+public class GenericsExam {
+	public GenericsExam() {
+
+	}
+}

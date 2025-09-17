@@ -1,0 +1,20 @@
+package com.ljh.geex;
+
+//제네릭 없는 버전
+class Box {
+	private Object item;
+	
+	public void setItem(Object item) {
+		this.item = item;
+	}
+	
+	public Object getItem() {
+		return item;
+	}
+}
+
+public class GenericsExam {
+	public GenericsExam() {
+
+	}
+}

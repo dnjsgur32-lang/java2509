@@ -1,0 +1,6 @@
+package com.ljh.mapex;
+
+public class MapExam {
+	public MapExam() {
+	}
+}

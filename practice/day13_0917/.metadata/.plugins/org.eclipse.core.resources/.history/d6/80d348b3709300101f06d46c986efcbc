@@ -1,0 +1,7 @@
+package com.ljh.mapex;
+
+public class MapExam {
+	public MapExam() {
+		// TODO Auto-generated constructor stub
+	}
+}
