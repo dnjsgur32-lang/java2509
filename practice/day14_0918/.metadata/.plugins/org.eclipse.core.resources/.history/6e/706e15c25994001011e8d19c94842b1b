@@ -1,0 +1,11 @@
+package com.ljh.oop;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Animal a = new Animal("보리");
+		a.makeSound();
+		a.move();
+	}
+
+}

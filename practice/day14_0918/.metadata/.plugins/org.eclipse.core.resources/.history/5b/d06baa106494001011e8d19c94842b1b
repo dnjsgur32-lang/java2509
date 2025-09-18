@@ -1,0 +1,7 @@
+package co.kr.ljh;
+
+public class GradeSevice {
+	public static void run(java.util.List<Student> list) {
+		list.sort(java.util.Comparator.comparingDouble(Student::avg).reversed().thenComparing(Student::name));r
+	}
+}

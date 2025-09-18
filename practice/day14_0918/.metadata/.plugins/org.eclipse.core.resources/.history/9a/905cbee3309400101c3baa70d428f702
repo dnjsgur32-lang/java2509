@@ -1,0 +1,19 @@
+package com.ljh.generics;
+
+public class Stats<T extends Number> {
+	
+	T[] nums;
+	
+	public Stats(nums) {
+	}
+
+	public T[] getNums() {
+		return nums;
+	}
+
+	public void setNums(T[] nums) {
+		this.nums = nums;
+	}
+	
+	
+}

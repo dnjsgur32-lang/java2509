@@ -1,0 +1,20 @@
+package co.kr.ljh;
+
+public class Student {
+	private final String name;
+	private final java.util.Map<String, Integer> scores =
+			new java.util.LinkedHashMap<>();
+
+	public Student(String name) {
+		if(name == null || name.isBlank()) {
+			throw new IllegalArgumentException("name 필수");
+		}
+		this.name = name;
+	}
+	public Student add(String sub, int score) {
+		if(sub == null || sub.isBlank()) {
+			throw new IllegalArgumentException("subject 필수");
+		}
+	}
+
+}

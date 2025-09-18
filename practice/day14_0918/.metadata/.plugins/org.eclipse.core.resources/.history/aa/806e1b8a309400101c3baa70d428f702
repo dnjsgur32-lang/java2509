@@ -1,0 +1,7 @@
+package com.ljh.generics;
+
+public class Stats<T extends Number> {
+	
+	Integer[] nums;
+	
+}

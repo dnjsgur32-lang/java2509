@@ -1,0 +1,10 @@
+package co.kr.ljh;
+
+public class Student {
+
+	public Student(String name) {
+		if(name == null || name.isBlank())
+			throw new IllegaArgumentException("name 필수");
+			this.name = name;
+	}
+}

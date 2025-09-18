@@ -1,0 +1,12 @@
+package co.kr.ljh;
+
+public class Student {
+	private final String name;
+	private final java.util.Map<String, Integer> 
+	scores = new java.util.LinkedHashMap<>();
+	
+
+	public Student(String name) {
+
+	}
+}

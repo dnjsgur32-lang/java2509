@@ -1,0 +1,22 @@
+package com.ljh;
+
+import java.util.ArrayList;
+
+public class WrapperMain {
+	public WrapperMain() {
+		
+		// Primaitive Data Type
+		/*
+		 * byte >> Byte
+		 * short >> Short
+		 * int >> Integer
+		 * long >> Long
+		 * float >> Float
+		 * double >> Double
+		 * boolean >> Boolean
+		 * char >> Character
+		 */
+		
+		ArrayList<int> myNums = new ArrayList>()
+	}
+}

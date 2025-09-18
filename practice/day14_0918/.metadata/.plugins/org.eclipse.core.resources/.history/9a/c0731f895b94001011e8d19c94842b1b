@@ -1,0 +1,23 @@
+package com.ljh.oop;
+
+import java.util.Arrays;
+
+public class Exten {
+	public static void run(Animal...animals) {
+		System.out.println("===동물원 오픈===");
+		System.out.println("입장 동물: " + Arrays.toString(animals));
+
+		for (Animal a : animals) {
+			System.out.println(a.name + "의 소리 -> " + a.speak());
+			
+		}
+		System.out.println("--- 고유 행동 체험 ---");
+		for (Animal a : animals) {
+			if(a instanceof Dog dog) {
+				dog.wagtail();
+			} else if (a instanceof Cat cat) {
+				cat.scratch();
+			}
+		}
+	}
+}

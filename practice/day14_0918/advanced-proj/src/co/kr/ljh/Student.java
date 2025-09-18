@@ -1,0 +1,63 @@
+package co.kr.ljh;
+
+/**
+ * 무엇: 학생 이름과 과목-점수를 보관하는 도메인 모델
+ * 왜: 평균/정렬/리포트 등을 위해 점수를 누적 관리
+ * 주의점: 점수 0~100 검증, 외부에 읽기 전용 뷰 제공
+ */
+public class Student {
+    private final String name;
+    private final java.util.Map<String, Integer> scores =
+        new java.util.LinkedHashMap<>();
+
+    public Student(String name) {
+        if (name == null || name.isBlank()) {
+            throw new IllegalArgumentException("name 필수");
+        }
+        this.name = name;
+    }
+
+    public Student add(String subject, int score) {
+        if (subject == null || subject.isBlank()) {
+            throw new IllegalArgumentException("subject 필수");
+        }
+        if (score < 0 || score > 100) {
+            throw new IllegalArgumentException("score 0~100");
+        }
+        scores.put(subject, score);
+        return this;
+    }
+
+    public Student addScore(String subject, int score) {
+        // 내부에서 add(...)로 위임하여 두 이름 모두 지원
+        return add(subject, score);
+    }
+
+    public double avg() {
+        if (scores.isEmpty()) return 0.0;
+        int sum = 0;
+        for (int v : scores.values()) {
+            sum += v;
+        }
+        return sum / (double) scores.size();
+    }
+
+    public String name() {
+        return name;
+    }
+
+    public java.util.Map<String, Integer> view() {
+        return java.util.Collections.unmodifiableMap(scores);
+    }
+
+   
+    public java.util.Map<String, Integer> viewScores() {
+        return view();
+    }
+
+    @Override
+    public String toString() {
+        return ("Student{name='%s', avg=%.2f, scores=%s}")
+            .formatted(name, avg(), scores);
+    }
+}

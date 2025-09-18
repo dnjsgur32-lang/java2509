@@ -1,0 +1,20 @@
+package com.ljh.oop;
+
+public class Animal {
+	protected String name;
+	
+	public Animal(String name2) {
+		this.name = (name == null || name.isBlank()) ? "이름없음" : name;
+	}
+	
+	String speak() {
+		return "..(무언가 소리를 낸다.)";
+	}
+
+	@Override
+	public String toString() {
+		return "Anumal{name='%s'".formatted(name);
+	}
+	
+	
+}

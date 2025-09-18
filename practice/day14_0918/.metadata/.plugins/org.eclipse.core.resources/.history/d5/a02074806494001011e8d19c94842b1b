@@ -1,0 +1,18 @@
+package co.kr.ljh;
+
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Student s1 = new Student("홍길동").addScore("국어", 95);
+		Student s2 = new Student("김철수").addScore("국어", 90);
+		Student s3 = new Student("이영희").addScore("국어", 82);
+		
+		List<Student> list = Array.asList(s1, s2, s3);
+		
+		GradeSevice.run(list);
+	}
+
+}

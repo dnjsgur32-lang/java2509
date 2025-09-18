@@ -1,0 +1,24 @@
+package com.ljh.oop;
+
+public class Animal {
+	protected String name;
+	
+	 public Animal(String name) {
+	        // null/공백/빈 문자열 금지: 호출자가 책임지고 올바른 값을 전달하도록 강제
+	        if (name == null || name.isBlank()) {
+	            throw new IllegalArgumentException("name은 비어 있을 수 없습니다.");
+	        }
+	        this.name = name;
+	        }
+	
+	String speak() {
+		return "..(무언가 소리를 낸다.)";
+	}
+
+	@Override
+	public String toString() {
+		return "Anumal{name='%s'".formatted(name);
+	}
+	
+	
+}

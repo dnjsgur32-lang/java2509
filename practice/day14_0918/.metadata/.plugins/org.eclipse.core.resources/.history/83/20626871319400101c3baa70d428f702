@@ -1,0 +1,19 @@
+package com.ljh.generics;
+
+public class Stats<T extends Number> {
+	
+	T[] nums;
+//				nums에 들어감 { 10, 20, 30, 40 }
+	public Stats(T[] nums) {
+		this.nums = nums;
+	}
+	public Double average() {
+		double sum = 0;
+		for (T num : nums) {
+			sum = sum + num;
+		}
+		return null;
+	}
+
+	
+}

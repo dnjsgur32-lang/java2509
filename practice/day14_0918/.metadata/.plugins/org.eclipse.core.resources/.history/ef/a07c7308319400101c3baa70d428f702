@@ -1,0 +1,20 @@
+package com.ljh.generics;
+
+public class Stats<T extends Number> {
+	
+	T[] nums;
+//				numss 에 들어감 { 10, 20, 30, 40 }
+	public Stats(T[] nums) {
+		this.name = nums;
+	}
+
+	public T[] getNums() {
+		return nums;
+	}
+
+	public void setNums(T[] nums) {
+		this.nums = nums;
+	}
+	
+	
+}

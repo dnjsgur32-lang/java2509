@@ -1,0 +1,20 @@
+package com.ljh.generics;
+
+public class GenericsMain {
+	public GenericsMain() {
+		
+		Box<String> strBox = new Box<>();
+		strBox.setValue("Hello");
+		System.out.println("값은: " + strBox.getValue());
+
+		Box<Integer> intBox = new Box<>();
+		intBox.setValue(50);
+		System.out.println("값은: " + intBox.getValue());
+		
+		System.out.println("=====================");
+		
+//		배열 사용해보기
+		String[]names = {"제니", "리암"};
+	}
+
+}

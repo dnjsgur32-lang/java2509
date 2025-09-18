@@ -1,0 +1,9 @@
+package com.ljh.oop;
+
+public class Animal {
+	protected String name;
+	
+	public Animal() {
+		this.name = (name == null || name.isBlank()) ? "이름없음" : name;
+	}
+}
